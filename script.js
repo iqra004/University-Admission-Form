@@ -7,7 +7,6 @@ function confirmSubmission() {
     form.reportValidity();
   }
 }
-
 function submitForm() {
   const fullName = document.getElementById("fullName").value;
   alert(`Thank you, ${fullName}. Your application has been submitted successfully!`);
